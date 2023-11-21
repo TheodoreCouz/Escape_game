@@ -1,14 +1,14 @@
 from colorama import Fore, Back
 import cv2
 
-answer = 'abcde'
+answer = 'seul'
 new_line="\n==>"
 n_fails = 0
 hints = [
-    f"{Back.LIGHTWHITE_EX} {Fore.BLACK} La longueur du mot de passe est 5. {Back.RESET} {Fore.RESET}",
+    f"{Back.LIGHTWHITE_EX} {Fore.BLACK} La longueur du mot de passe est 4. {Back.RESET} {Fore.RESET}",
     f"{Back.LIGHTWHITE_EX} {Fore.BLACK} Le mot de passe est uniquement composé de lettres. {Back.RESET} {Fore.RESET}",
-    f"{Back.LIGHTWHITE_EX} {Fore.BLACK} La première lettre du mot de passe est <a>. {Back.RESET} {Fore.RESET}",
-    f"{Back.LIGHTWHITE_EX} {Fore.BLACK} La toisième lettre du mot de passe est <c>. {Back.RESET} {Fore.RESET}"
+    f"{Back.LIGHTWHITE_EX} {Fore.BLACK} La première lettre du mot de passe est <s>. {Back.RESET} {Fore.RESET}",
+    f"{Back.LIGHTWHITE_EX} {Fore.BLACK} La toisième lettre du mot de passe est <u>. {Back.RESET} {Fore.RESET}"
 ]
 
 def get_hint():
